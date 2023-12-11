@@ -43,7 +43,6 @@ img {
 
 section {
     min-height: 500px;
-    border: 2px dashed red;
 }
 
 .fa-star {
@@ -61,14 +60,6 @@ h2 {
     height: 4px;
 }
 
-/* .container {
-    border: 2px dashed red;
-} */
-
-/* .container-fluid {
-    border: 2px dashed purple;
-} */
-
 [class^='col'] {
     border: 2px solid orange;
     min-height: 50px;
@@ -78,8 +69,23 @@ h2 {
     background-color: #2C3E50;
 }
 
+.bg-about {
+    background-color: #1ABC9C;
+}
+
 /* Main Content */
 
 .text-size {
     font-size: 35px;
+}
+
+.p-size {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.btn {
+    font-size: 20px;
+    padding: 8px 15px 8px 15px;
+    font-weight: 500;
 }
