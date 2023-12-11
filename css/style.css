@@ -1,0 +1,67 @@
+.border-black {
+    border: 4px dashed black;
+}
+
+.border-blue {
+    border: 4px dashed blue;
+}
+
+.border-red {
+    border: 2px dashed red;
+}
+
+.border-dodgerblue {
+    border: 2px dashed dodgerblue;
+}
+
+/* Header */
+
+header {
+    height: 80px;
+    background-color: #2C3E50;
+}
+
+.col-header {
+    width: 120px;
+    height: 40px;
+}
+
+.row-left {
+    gap: 20px;
+}
+
+/* Main Content */
+
+.spotlight {
+    background-color: #1ABC9C;
+    height: 500px;
+}
+
+.row-spotlight {
+    height: 500px;
+    width: 100%;
+}
+
+.img-spotlight {
+    width: 220px;
+    height: 220px;
+    margin-bottom: 40px;
+}
+
+.text-spotlight {
+    width: 300px;
+    height: 50px;
+    margin-bottom: 50px;
+}
+
+.text-bottom-spotlight {
+    width: 450px;
+    height: 40px;
+}
+
+.bg-blue {
+    background-color: #2C3E50;
+}
+
+/* Main Content */
+
