@@ -28,6 +28,10 @@ form {
 
 /* Main Content */
 
+img {
+    width: 300px;
+}
+
 .spotlight {
     background-color: #1ABC9C;
     height: 400px;
@@ -36,6 +40,16 @@ form {
 section {
     min-height: 500px;
     border: 2px dashed red;
+}
+
+.fa-star {
+    font-size: 30px;
+}
+
+.bar {
+    width: 90px;
+    border-radius: 10px;
+    height: 4px;
 }
 
 /* .container {
@@ -56,3 +70,7 @@ section {
 }
 
 /* Main Content */
+
+.text-size {
+    font-size: 35px;
+}
