@@ -28,8 +28,12 @@ form {
 
 /* Main Content */
 
-img {
+.spotlight img {
     width: 300px;
+}
+
+img {
+    width: 100%;
 }
 
 .spotlight {
@@ -44,6 +48,11 @@ section {
 
 .fa-star {
     font-size: 30px;
+}
+
+h2 {
+    color: #333333;
+    font-weight: 600;
 }
 
 .bar {
