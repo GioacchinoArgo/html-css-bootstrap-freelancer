@@ -14,17 +14,6 @@
     border: 2px dashed dodgerblue;
 }
 
-/* Header */
-
-/* header {
-    height: 80px;
-    background-color: #2C3E50;
-} */
-
-form {
-    min-height: 350px;
-}
-
 
 /* Main Content */
 
@@ -60,6 +49,12 @@ h2 {
     height: 4px;
 }
 
+.bar-small {
+    width: 50px;
+    border-radius: 10px;
+    height: 4px;
+}
+
 [class^='col'] {
     border: 2px solid orange;
     min-height: 50px;
@@ -84,8 +79,20 @@ h2 {
     font-weight: 500;
 }
 
-.btn {
+.btn-about {
     font-size: 20px;
-    padding: 8px 15px 8px 15px;
+    padding: 6px 15px 6px 15px;
     font-weight: 500;
+}
+
+.form-control::placeholder {
+    font-weight: 500;
+    color: rgb(33, 37, 41);
+}
+
+.btn-contacts {
+    background-color: #1ABC9C;
+    color: #fff;
+    font-weight: 500;
+    padding: 8px 12px 8px 12px;
 }
