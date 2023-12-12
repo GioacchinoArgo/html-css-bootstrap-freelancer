@@ -1,17 +1,7 @@
-.border-black {
-    border: 4px dashed black;
-}
+/* Header */ 
 
-.border-blue {
-    border: 4px dashed blue;
-}
-
-.border-red {
-    border: 2px dashed red;
-}
-
-.border-dodgerblue {
-    border: 2px dashed dodgerblue;
+.bg-header {
+    background-color: #2C3E50;
 }
 
 
@@ -55,15 +45,6 @@ h2 {
     height: 4px;
 }
 
-[class^='col'] {
-    border: 2px solid orange;
-    min-height: 50px;
-}
-
-.bg-header {
-    background-color: #2C3E50;
-}
-
 .bg-about {
     background-color: #1ABC9C;
 }
@@ -95,4 +76,44 @@ h2 {
     color: #fff;
     font-weight: 500;
     padding: 8px 12px 8px 12px;
+}
+
+/* Footer */
+
+footer {
+    font-size: 20px;
+    background-color: #3A546D;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+footer i {
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+.twitter {
+    padding: 18px 18px;
+}
+
+.g-plus {
+    padding: 18px 16px;
+}
+
+.facebook {
+    padding: 18px 22px;
+}
+
+.linkedin {
+    padding: 18px 20px;
+}
+
+.c-bootstrap-text {
+    color: #1ABC9C;
+}
+
+.footer-bottom {
+    background-color: #2C3E50;
 }
